@@ -1,0 +1,232 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+header {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeee;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 2rem;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+}
+
+header a:hover {
+    color: #666;
+}
+
+#proyectos {
+    padding: 2rem 0;
+}
+
+#proyectos h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    flex: 1 1 300px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.project-card p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#redes-sociales {
+    padding: 2rem 0;
+}
+
+#redes-sociales h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links a {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #666;
+}
+
+#sobre-mi {
+    padding: 2rem 0;
+}
+
+#sobre-mi h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio img {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.bio p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#contacto {
+    padding: 2rem 0;
+}
+
+#contacto h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+footer {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header h1 {
+        margin-bottom: 2rem;
+    }
+
+    header nav {
+        margin-bottom: 2rem;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin-left: 0;
+    }
+
+    .project-container {
+        flex-direction: column;
+    }
+
+    .project-card {
+        margin: 2rem 0;
+    }
+}
